@@ -11,18 +11,21 @@ Converts documents into embeddings
 Stores them in a vector database (Chroma / FAISS)
 Retrieves top-k relevant context
 Uses LLM to generate accurate, contextual responses
+
 🤖 Agent-Based Query Handling
 Implements agentic workflows for:
 Query understanding
 Tool selection (search, retrieval, response generation)
 Multi-step reasoning
 Enables dynamic decision-making instead of static pipelines
+
 🧩 Semantic Search Engine
 Embedding-based similarity search
 Handles:
 Natural language queries
 Partial / ambiguous inputs
 Much more robust than keyword-based systems
+
 ⚡ Backend Architecture
 FastAPI-based scalable backend
 Modular design:
@@ -30,12 +33,14 @@ Retrieval layer
 LLM layer
 API layer
 Async support for performance optimization
+
 🗄️ Data Handling
 Supports:
 PDFs
 Text documents
 Structured FAQ datasets
 Intelligent chunking + indexing
+
 🏗️ System Architecture
 User Query
    ↓
@@ -50,6 +55,7 @@ Retriever (Top-K Context)
 LLM (OpenAI / LLaMA / Mistral)
    ↓
 Response Generation
+
 🔄 Agent Workflow
 User Query
    ↓
@@ -68,6 +74,7 @@ Vector DB	ChromaDB / FAISS
 Embeddings	HuggingFace / OpenAI
 Data Processing	Pandas, NumPy
 Deployment	Docker (optional)
+
 ⚡ Features
 💬 Context-aware chatbot
 📚 Document-based Q&A
@@ -75,6 +82,7 @@ Deployment	Docker (optional)
 🤖 Agent-driven reasoning
 ⚡ Fast API responses
 🔄 Extensible to multi-agent systems
+
 📂 Project Structure
 ├── app/
 │   ├── main.py
@@ -117,12 +125,14 @@ Output:
 🔹 Real-time streaming responses
 🔹 Frontend UI (React + Chat interface)
 🔹 Deployment on AWS / Azure
+
 🧪 Key Learnings
 Building scalable RAG pipelines
 Working with vector databases and embeddings
 Designing agent-based AI systems
 Integrating LLMs into production workflows
 Handling unstructured data intelligently
+
 👩‍💻 Author
 
 Akanksha Bhagat
